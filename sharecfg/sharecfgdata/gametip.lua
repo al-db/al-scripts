@@ -1298,6 +1298,53 @@
   battle_result_victory = {
     tip = "取得战斗胜利"
   },
+  battlepass_acquire_attention = {
+    tip = "世界巡游将于$1天$2时后结束，尚有以下奖励未领取  "
+  },
+  battlepass_complete = {
+    tip = "当期世界巡游已完成"
+  },
+  battlepass_main_help = {
+    tip = { {
+        info = "世界巡游(2021.10.1~11.30)\n\n·<color=#92fc63>开放时间</color>\n    2021.10.1 0点 ~ 2021.11.30 23:59:59\n\n·<color=#92fc63>巡游进度说明</color>\n（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。\n（2）巡游任务随时间开放解锁。\n（3）每获取100点「巡游点数」即可增加1巡游进度\n（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。\n\n·<color=#92fc63>奖励规则</color>\n巡游进度奖励分为两种：\n（1）基础巡游奖励：包含<color=#ff5c5c>「魟·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·四期</color>等奖励；\n    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。\n（2）特许巡游奖励：包含<color=#ff5c5c>约克城换装「圣者之翼</color>」、<color=#ff5c5c>钻石</color>等奖励；\n    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。\n    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。\n\n·<color=#92fc63>「特许巡游凭证」说明</color>\n（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。\n（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即11.30 22:59:59停止)，请指挥官注意购买时间。\n\n·<color=#92fc63>任务说明</color>\n巡游任务分为两种：\n（1）每周任务 \n    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务\n（2）S.P.任务\n    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。\n（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。\n\n·<color=#92fc63>「巡游任务快速完成券」说明</color>\n（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务\n（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐\n（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关\n（4）「巡游任务快速完成券」不会随本期活动结束而消失\n\n·<color=#ff5c5c>特别提示</color>\n（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。\n（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效"
+      } }
+  },
+  battlepass_main_time = {
+    tip = "$1天$2时"
+  },
+  battlepass_main_tip = {
+    tip = "2021.10.1-2021.11.30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「魟·META」</color>在内的丰富奖励"
+  },
+  battlepass_main_tip1 = {
+    tip = "活动期间，完成巡游任务累计<icon name=pt w=1 h=1/>\n可获取<color=#92fc63>「魟·META」</color>、<color=#92fc63>心智魔方</color>、\n<color=#92fc63>高级定向蓝图</color>在内的丰富奖励"
+  },
+  battlepass_main_tip2 = {
+    tip = "购买<icon name=pass w=1 h=1/>可解锁\n<color=#92fc63>「约克城」限定换装</color>、<color=#92fc63>钻石</color>\n<color=#92fc63>心智魔方</color>在内的额外奖励"
+  },
+  battlepass_main_tip3 = {
+    tip = "活动期间，完成巡游任务累计<icon name=pt w=1 h=1/>\n可获取<color=#92fc63>「约克城」限定换装</color>、\n<color=#92fc63>钻石</color>、<color=#92fc63>心智魔方</color>在内的额外奖励"
+  },
+  battlepass_pay_acquire = {
+    tip = "购买后立即获得："
+  },
+  battlepass_pay_attention = {
+    tip = "是否前往世界巡游活动领取奖励？"
+  },
+  battlepass_pay_timelimit = {
+    tip = "剩余：$1"
+  },
+  battlepass_pay_tip = {
+    tip = "购买后解锁特许巡游奖励："
+  },
+  battlepass_task_quickfinish1 = {
+    tip = "快速完成该任务需要消耗<color=#ff5c5c>$1张</color>「巡游任务快速完成券」\n(当前拥有:<color=#92fc63>$2</color>张)\n是否确定使用？"
+  },
+  battlepass_task_quickfinish2 = {
+    tip = "所需道具不足，是否前往购买？\n还需要：<color=#ff5c5c>$1张</color>「巡游任务快速完成券」"
+  },
+  battlepass_task_quickfinish3 = {
+    tip = "道具使用成功"
+  },
   bismarck_award_tip = {
     tip = "完成所有条件后获得奖励"
   },
@@ -1896,6 +1943,39 @@
         info = "活动规则：\n1.<color=#92fc63>9月08日</color>为止每日0点开放<color=#92fc63>1</color>场新游戏，总计<color=#92fc63>7</color>场，可累计。完成7场游戏可以获得包括限定家具在内的丰富奖励。\n游戏规则：\n1.屏幕中有三个杯面，其中一个放入了一把叉子，之后杯面位置会进行交换。猜中叉子所在的杯面可获得积分并继续下一轮比赛。\n2.获得积分由基础得分和剩余时间得分组成，游戏难度会随着游戏轮数的增加逐渐提高。\n3.猜错叉子所在杯面，单轮时间用尽或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。"
       } }
   },
+  class_attr_costproficiency = {
+    tip = "熟练度消耗"
+  },
+  class_attr_getproficiency = {
+    tip = "熟练度获取"
+  },
+  class_attr_proficiency = {
+    tip = "熟练度上限"
+  },
+  class_attr_store = {
+    tip = "库存上限"
+  },
+  class_label_gen = {
+    tip = "生成中:"
+  },
+  class_label_goldfield = {
+    tip = "物资产量"
+  },
+  class_label_oilfield = {
+    tip = "石油生产"
+  },
+  class_label_tran = {
+    tip = "转化:"
+  },
+  class_label_upgradetime = {
+    tip = "升级时间"
+  },
+  class_label_upgrading = {
+    tip = "升级中"
+  },
+  class_res_maxlevel_tip = {
+    tip = "已达最大等级"
+  },
   click_back_tip = {
     tip = "点击任意位置返回"
   },
@@ -2391,9 +2471,24 @@
   coupon_timeout_tip = {
     tip = "<color=#92fc63>「$1」</color>已过期，无法获得"
   },
+  coures_exp_npc_tip = {
+    tip = "该角色为NPC角色，活动结束时若未正式加入，将会离开港区。是否继续？ "
+  },
+  coures_exp_overflow_tip = {
+    tip = "本次强化会溢出<color=#ffde38>$1</color>经验，是否继续 "
+  },
+  coures_level_tip = {
+    tip = "<color=#E0E0E0>*使用「舰艇演习数据」可以快速获得经验 </color>"
+  },
+  coures_tip_exceeded_lv = {
+    tip = "已达当前等级上限 "
+  },
+  coures_tip_material_stock = {
+    tip = "库存："
+  },
   course_class_help = {
     tip = { {
-        info = "大讲堂功能详情：\n\n· 熟练度：\n完成三阶突破的100级角色，出击时将根据获得经验同时\n获取一定比例的熟练度\n\n· 大讲堂等级：\n提升大讲堂等级，可以增加储存熟练度上限、熟练度消耗速度和获取熟练度比例\n\n· 大讲堂课程：\n根据课程表，大讲堂每天将教授不同的课程\n\n· 课程表：\n周一：《驱逐雷击教学—鱼雷发射技巧分析》\n周二：《巡洋炮击教学—如何正确地选择弹药》\n周三：《战列理论教学—大炮巨舰的优势分析》\n周四：《航母理论教学—论海空综合作战的重要性》\n周五：《驱逐实战教学—实用阵型技巧分析》\n周六：《巡洋实战教学—火力最大化手段分析》\n周日：大讲堂休息，出击获取熟练度比例翻倍\n\n（浅水重炮舰参加战列舰的课程，维修舰、运输舰可以参加驱逐与巡洋的课程，航战可以参加航母与战列舰的课程，潜艇、潜母参加驱逐的课程，超巡参加巡洋的课程）\n\n· 上课：\n大讲堂课程最大时长为12小时，下课时扣除消耗的熟练度，角色获取经验\n正在后宅休息和训练的角色无法上课\n上课会降低角色的心情，心情不好的话就无法开始上课了"
+        info = "大讲堂功能详情：\n\n· 熟练度：\n完成三阶突破的100级角色，出击时将根据获得经验同时获取一定比例的熟练度，每周周日时出击获取的熟练度比例翻倍。\n\n· 大讲堂等级：\n提升大讲堂等级，可以提高<color=#92fc63>舰艇演习数据库存上限、熟练度上限</color>和<color=#92fc63>熟练度获取比例</color>等相关数值\n\n大讲堂会随着时间自动消耗舰船出击获得的熟练度生成舰艇演习数据，若熟练度不足舰艇演习数据的生成过程将会暂停。\n\n舰艇演习数据：\n可以提供给其他角色快速获取经验的道具。 \n\n· 大讲堂课程：\n根据课程表，大讲堂每天将教授不同的课程\n\n· 课程表：\n周一：《驱逐雷击教学—鱼雷发射技巧分析》\n周二：《巡洋炮击教学—如何正确地选择弹药》\n周三：《战列理论教学—大炮巨舰的优势分析》\n周四：《航母理论教学—论海空综合作战的重要性》\n周五：《驱逐实战教学—实用阵型技巧分析》\n周六：《巡洋实战教学—火力最大化手段分析》\n周日：自主学习"
       } }
   },
   course_class_name = {
@@ -2430,7 +2525,7 @@
     tip = "有学生已经满级，还不能开始上课"
   },
   course_sunday_tip = {
-    tip = "大讲堂休息，出击熟练度获取比例翻倍"
+    tip = "学生自主学习，出击熟练度获取比例翻倍"
   },
   cowboy_tips = {
     tip = { {
@@ -2439,6 +2534,23 @@
   },
   create_player_success = {
     tip = "创建角色成功"
+  },
+  cruise_task_help = {
+    tip = { {
+        info = "巡游任务说明\n\n·<color=#92fc63>开放时间</color>\n    2021.10.1 0点 ~ 2021.11.30 23:59:59\n\n·<color=#92fc63>巡游任务分为两种</color>\n（1）每周任务\n    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。\n（2）S.P.任务\n    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。\n（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励\n\n·<color=#92fc63>「巡游任务快速完成券」说明</color>\n（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务\n（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐\n（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关\n（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>"
+      } }
+  },
+  cruise_task_phase = {
+    tip = "巡游进度 | PHASE.$1"
+  },
+  cruise_task_tips = {
+    tip = "已完成："
+  },
+  cruise_task_unlock = {
+    tip = "该周任务将于$1天$2时后解锁"
+  },
+  cruise_task_week = {
+    tip = "第$1周"
   },
   cumulative_victory_now_tip = {
     tip = "当前胜利次数："
@@ -2622,6 +2734,11 @@
   },
   dress_up_success = {
     tip = "装扮成功"
+  },
+  eatgame_tips = {
+    tip = { {
+        info = "活动规则：\n1.<color=#92fc63>10月6日</color>为止每日0点开放<color=#92fc63>1</color>场新的游戏，总计<color=#92fc63>7</color>场，可累计。完成游戏获取7块「烤肉」可获得椿限定改造道具「烤肉味香水」\n游戏规则：\n1.屏幕中会出现滚动条，在鸡腿移动时点击屏幕任意位置可使鸡腿停止移动，让鸡腿停留在绿色区域以让椿吃的更快。累计在绿色区域中停留15次即可赢下大胃王比赛。\n2.鸡腿停留在不同颜色区域时获取的积分不同：停留在绿色区域时越靠近绿色中心得分越高，停留在黄色区域不得分，停留在红色区域扣分。\n3.游戏时间归零或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。"
+      } }
   },
   electrotherapy_wanning = {
     tip = "镜面海域扩展中"
@@ -5707,6 +5824,11 @@
         }
       }, {
         icon = {
+          atlas = "helpbg/BoostEXP",
+          path = ""
+        }
+      }, {
+        icon = {
           atlas = "helpbg/maxlevel",
           path = ""
         }
@@ -6908,6 +7030,9 @@
   level_diffcult_chapter_state_safety = {
     tip = "<size=36>地图达成<color=#92fc63>100%</color>后\n出击舰队可直接攻击<color=#92fc63>敌方旗舰</color></size>"
   },
+  level_flare_supply = {
+    tip = "获得照明弹补给，为舰队下$1次战斗照明"
+  },
   level_fleet_lease_one_ship = {
     tip = "至少需要保留一支出击舰队"
   },
@@ -7835,7 +7960,7 @@
     tip = "少女们进食的地方，升级设施可以提高每日<color=#92fc63>燃油的产量</color>和<color=#92fc63>库存上限</color>"
   },
   naval_academy_res_desc_class = {
-    tip = "学院的大讲堂，升级设施可以提高<color=#92fc63>熟练度上限、熟练度消耗速度</color>和<color=#92fc63>熟练度获取比例</color>"
+    tip = "学院的大讲堂，升级设施可以提高<color=#92fc63>舰艇演习数据库存上限、熟练度上限</color>和<color=#92fc63>熟练度获取比例</color>等相关数值"
   },
   naval_academy_res_desc_shop = {
     tip = "学院的小卖部，升级设施可以提高每日<color=#92fc63>金币的产量</color>和<color=#92fc63>库存上限</color>"
@@ -8088,6 +8213,9 @@
   },
   player_change_chat_room_erro = {
     tip = "切换聊天室失败"
+  },
+  player_expResource_mail_fullBag = {
+    tip = "资源已经达到上限，继续会导致部分资源无法领取，是否继续？"
   },
   player_harvestResource_error = {
     tip = "收获资源失败:"
@@ -8841,6 +8969,18 @@
   ship_exchange_tip = {
     tip = "1.角色退役可以获得荣誉勋章\n2.使用荣誉勋章可以在兑换系统雇佣新的角色\n3.兑换系统每天<color=#92fc63>6点</color>和<color=#92fc63>18点</color>刷新"
   },
+  ship_exp_item_label_clear = {
+    tip = "清 空"
+  },
+  ship_exp_item_label_confirm = {
+    tip = "确 认"
+  },
+  ship_exp_item_label_recom = {
+    tip = "推 荐"
+  },
+  ship_exp_item_title = {
+    tip = "等级提升 "
+  },
   ship_formationMediaror_trash_warning = {
     tip = "$1至少必须有<color=#92fc63>1个先锋</color>和<color=#92fc63>1个主力</color>角色，确定将清空$1，取消返回。"
   },
@@ -9086,6 +9226,9 @@
   },
   ship_remould_warning_301534 = {
     tip = "此次改造操作后<color=#92fc63>【霞光之绊】</color>技能\n将升级为<color=#92fc63>【霞光之绊·改】</color>"
+  },
+  ship_remould_warning_301874 = {
+    tip = "此次改造操作将消耗<color=#92fc63>烤肉味香水</color>\n是否确认继续操作？\n改造后<color=#92fc63>【鱼雷底座-1】</color> <color=#92fc63>【主炮底座+1】</color>\n技能<color=#92fc63>【所罗门的噩梦】</color>将升级为<color=#92fc63>【所罗门的噩梦.改】</color>\n技能<color=#92fc63>【专属弹幕-{namecode:16}II】</color>将升级为<color=#92fc63>【专属弹幕-{namecode:16}III】</color>"
   },
   ship_remould_warning_303154 = {
     tip = "此次改造操作将导致<color=#92fc63>$1</color>舰艇类型变化\n<color=#92fc63>【主武器（轻巡主炮）】</color>变更为\n<color=#92fc63>【主武器（重巡主炮）】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>\n<color=#92fc63>【主武器】</color>栏的装备将被卸下\n是否确认继续操作？"
@@ -9626,6 +9769,9 @@
   },
   tec_catchup_errorfix = {
     tip = "由于「新兵训练」中「科研任务·一期」存在完成后刷新异常的问题。公平起见，第一次完成「科研任务·一期」任务后，将自动重置一次一期的任务，确保所有指挥官都能完成两轮「科研任务·一期」。"
+  },
+  tec_nation_award_finish = {
+    tip = "- 已领取 -"
   },
   tec_notice_1 = {
     tip = "完成科研一期研发加速所有任务后解锁"
